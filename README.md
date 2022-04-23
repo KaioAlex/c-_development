@@ -33,7 +33,7 @@ Em andamento: 8º Período - 2022/1
 
 * Python
   * Biblioteca Numpy
-  * Biblioteca PYOD
+  * [_Biblioteca PYOD - Outlier Detection_](../../../DigitalSecurity)
 
 * Shell Script.
 
