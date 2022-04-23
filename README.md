@@ -17,6 +17,12 @@ Concluído em 2017
 Ensino Superior: Graduando em Ciência da Computação - DCC/UFMG <br>
 Em andamento: 8º Período - 2022/1
 
+## Experência Profissional
+* (2020 -  Atual) <br>
+**Banco Mercantil do Brasil** -
+Estagiário na Gerência de Segurança Cibernética e da Informação.
+  * Lidar com ferramentas de monitoramento de mercado (Blue Team) e participar nos projetos da área de Cyber Security 
+  * Auxílio e atendimento de demandas dos usuários, em tarefas do dia a dia do banco.
 
 ## Conhecimentos
 
@@ -56,14 +62,8 @@ Em andamento: 8º Período - 2022/1
 * Inglês Intermediário (Leitura, compreensão e escrita)
 
 
-## Experência Profissional
-* (2020 -  Atual) <br>
-**Banco Mercantil do Brasil** -
-Estagiário na Gerência de Segurança Cibernética e da Informação.
-  * Lidar com ferramentas de mercado (Blue Team) e participar nos projetos da área de Cyber Security 
-  * Auxílio e atendimento de demandas dos usuários, em tarefas do dia-a-dia do banco.
+### Dúvidas
 
+Achou algum erro nas informações? Algum ponto incompleto?
 
-Teve alguma dúvida sobre meu currículo?
-
-[Mande-me](https://github.com/KaioAlex/curriculo/issues) uma mensagem e ajude-me a melhorá-lo.
+[Mande-me](https://github.com/KaioAlex/curriculo/issues) uma mensagem.
