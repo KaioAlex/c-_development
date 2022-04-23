@@ -33,13 +33,13 @@ Estagiário na Gerência de Segurança Cibernética e da Informação.
 
 ### Linguagens de Programação
 * C/C++
-  *  [_Sistema de Biblioteca com POO_](Library_Project)
-  * [_Projeto de Compiladores_](Compilers)
-  * [_Programação Paralela_](Parallel_Programming)
+  *  [_Sistema de Biblioteca com POO_](https://github.com/KaioAlex/cpp_development/tree/main/Library_Project)
+  * [_Projeto de Compiladores_](https://github.com/KaioAlex/cpp_development/tree/main/Compilers)
+  * [_Programação Paralela_](https://github.com/KaioAlex/cpp_development/tree/main/Parallel_Programming)
 
 * Python
   * Biblioteca Numpy
-  * [_Biblioteca PYOD - Outlier Detection_](../../../DigitalSecurity)
+  * [_Biblioteca PYOD - Outlier Detection_](https://github.com/KaioAlex/DigitalSecurity)
 
 * Shell Script.
 
@@ -60,6 +60,13 @@ Estagiário na Gerência de Segurança Cibernética e da Informação.
 
 ### Nível de Inglês
 * Inglês Intermediário (Leitura, compreensão e escrita)
+
+### Livros
+* Clean Code - Robert C. Martin
+
+* Linguagem C: Completa e Descomplicada - Andre Backes  
+
+* Engenharia de Software Moderna - Marco Tulio Valente.
 
 
 ### Dúvidas
