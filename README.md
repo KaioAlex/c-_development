@@ -4,7 +4,7 @@ Belo Horizonte/MG <br>
 (35) 99910 - 7469 <br>
 caio.campos.dcc@pm.me
 
-Meu nome é Caio e, atualmente, sou estudante na área de Ciência da Computação na Universidade Federal de Minas Gerais (UFMG). Apaixonado por programação e resolução de problemas, com grande interesse em C/C++ e Python. 
+Meu nome é Caio e, atualmente, sou estudante na área de Ciência da Computação na Universidade Federal de Minas Gerais (UFMG). Apaixonado por programação e por resolver problemas, com grande interesse em C/C++ e Python. 
 
 Fascinado em descobrir como as coisas funcionam por de trás dos panos, sempre busco aprender e entender de forma clara e objetiva os requisitos do projeto. Além de claro, ter comprometimento com os prazos e a qualidade do código sendo desenvolvido.
 
