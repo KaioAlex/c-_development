@@ -27,9 +27,9 @@ Em andamento: 8º Período - 2022/1
 
 ### Linguagens de Programação
 * C/C++
-  *  [_Sistema de Biblioteca com POO_](Library Project)
+  *  [_Sistema de Biblioteca com POO_](Library_Project)
   * [_Projeto de Compiladores_](Compilers)
-  * [_Programação Paralela_](Parallel Programming)
+  * [_Programação Paralela_](Parallel_Programming)
 
 * Python
   * Biblioteca Numpy
