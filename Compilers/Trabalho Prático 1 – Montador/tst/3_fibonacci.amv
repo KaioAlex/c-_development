@@ -1,0 +1,22 @@
+;Fibonacci de n
+
+READ R0                 ; le n e guarda no reg0
+LOAD R1 const1          ; inicia reg1 com 1
+LOAD R2 const1          ; inicia reg2 com 0
+SUB R2 R1               ; atualiza valor de reg2 para 0
+LOAD R3 const1          ; reg3 recebe 1
+SUB R0 R1               ; retira 1 de n
+JZ imprimePrim          ; caso n=1
+calcula: SUB R0 R1      ; conta um termo feito
+JZ imprime              ; calculou o termo pedido
+STORE R3 const1         ; guarda o último valor na posição de memória 0
+ADD R3 R2               ; soma os dois termos anteriores no reg3
+LOAD R2 const1          ; load valor anterior no reg2
+JUMP calcula            ; calcular mais um termo
+imprime: WRITE R3       ; printa o resultado para n > 1
+JUMP fim;               ; vai para o fim
+imprimePrim: WRITE R2   ; printa o resultado para n = 1
+fim: HALT               ; Sai do programa
+
+const1: WORD 1
+END
