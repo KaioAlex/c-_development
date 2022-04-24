@@ -1,4 +1,4 @@
-# 2019-1-grupo15: Sistema para 	Biblioteca
+# Sistema para 	Biblioteca
 
  ##  Introdução:
 
