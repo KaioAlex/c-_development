@@ -1,0 +1,63 @@
+OBS: notar que é necessário ter ferramentas como gcov, lcov, gcovr instaladas
+
+==> Olá, para ver a cobertura dos nossos testes de unidade basta dar um:
+    $ make coverage_
+
+==> Também geramos o arquivo index.html com o gcov e o lcov, está dentro de tests/coverage
+
+==> Agora se quiser construir passo passo os arquivos para o teste
+    1º -> Gerar os arquivos para os testes de unidade das classes, arquivos .o
+        $ make test
+    
+    2º -> arquivos .gcno
+        $ make test_
+    
+    3º -> Execute o arquivo executável (saída arquivos ‘.gcda’)
+        $ make run_test
+
+    OBS: Como nós dependemos constantemente das entradas do usuário, notar aqui que para obter uma maior cobertura, deve seguir o passo a passo logo a baixo com as entradas
+    
+    4º -> Mostrar a porcentagem da cobertura
+        $ make coverage
+    
+    5º -> Limpar pasta de tests/coverage    
+        $ make clean_test
+
+                                    Roteiro para ter maior cobertura no coverage de testes:
+ login() ->  login errado, login certo. Senha errada, depois a certa;
+
+ borrow_book() ->  matricula errada(adadaa),(123), matricula certa(2014343432). Codigo errado, codigo com livro nao em estoque(839-7-81-815200-5), codigo certo do livro(852-7-02-233982-3);
+
+ return_book() -> matricula errada(adadaa),(123), matricula certa(2014343432). Codigo errado, codigo com livro nao em estoque(839-7-81-815200-5), codigo certo do livro(852-7-02-233982-3);
+
+show_menu() -> emprestimo, volta, retornar, volta, show_adm_menu
+
+show_adm_menu() -> Registrar Novo Livro, Registrar Novo Estudante***,  Mostrar Registro de Estudantes, Mostrar Info. de Estudante Específico, Mostrar Registro de Estudantes, Mostrar Info. de Livro Específico, Remover um Estudante, Remover um Livro
+
+
+-- Exemplo de cobertura de um dos caminhos de teste
+                        Resultado do comando: $ make coverage_
+
+gcovr -r . --exclude=".*h"
+------------------------------------------------------------------------------
+                           GCC Code Coverage Report
+Directory: .
+------------------------------------------------------------------------------
+File                                       Lines    Exec  Cover   Missing
+------------------------------------------------------------------------------
+src/Admin.cpp                                  9       8    88%   4
+src/Book.cpp                                 124     120    96%   83-84,167-168
+src/Exceptions.cpp                             6       6   100%   
+src/Student.cpp                               31      31   100%   
+src/System.cpp                               548     409    74%   145,271-272,315,360,454,461-462,465-466,469-470,485,501,504,519-520,527-528,565,581,593,609,655,670,684,698,704-707,709-712,716-719,725,727,729-731,733,735-736,740,743-747,751-752,757,760-761,763-765,776,783,785-788,790,794-796,798,800-801,805,865 [* 173,180-181,183-185,187-188,190-191,202,217,380,386-389,391-392,394-395,397-398,400-401,413,472-473,475,477-483,542-543,722,817-818,830-832,834-835,837,839-840,842-843,846-849,851-852,854-855,857-858,860-861]
+src/User.cpp                                  12      12   100%   
+tests/TesteAdmin.cpp                           4       4   100%   
+tests/TesteBook.cpp                           18      18   100%   
+tests/TesteExceptions.cpp                      9       9   100%   
+tests/TesteStudent.cpp                         5       5   100%   
+tests/TesteSystem.cpp                         25      25   100%   
+tests/TesteUser.cpp                            4       4   100%   
+tests/main_test.cpp                            1       1   100%   
+------------------------------------------------------------------------------
+TOTAL                                        796     652    81%
+------------------------------------------------------------------------------
