@@ -33,7 +33,7 @@ Estagiário na Gerência de Segurança Cibernética e da Informação.
 
 ### Linguagens de Programação
 * C/C++
-  *  [_Sistema de Biblioteca com POO_](https://github.com/KaioAlex/cpp_development/tree/main/Library_Project)
+  *  [_Sistema de Biblioteca com POO_](https://github.com/KaioAlex/cpp_development/tree/main/Library_Management_System)
   * [_Projeto de Compiladores_](https://github.com/KaioAlex/cpp_development/tree/main/Compilers)
   * [_Programação Paralela_](https://github.com/KaioAlex/cpp_development/tree/main/Parallel_Programming)
 
